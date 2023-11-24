@@ -1,9 +1,12 @@
-import Rlogo from './../logos/logo512.png'
-
+import { FaReact } from 'react-icons/fa'
 const ReactWelcome = () => {
   return (
-    <section className='flex flex-col justify-center items-center mt-32 gap-2 h-[425px] '>
-      <img src={Rlogo} alt='reactlogo' width={110} />
+    <section className='flex flex-col justify-center items-center mt-9 gap-2 h-[510px] '>
+      <FaReact
+        alt='reactlogo'
+        className='text-[#149eca] text-[120px]'
+        width={110}
+      />
       <h1 className='text-white text-6xl font-bold'>React</h1>
       <h1 className='text-white text-4xl'>
         The library for web and native user interfaces
