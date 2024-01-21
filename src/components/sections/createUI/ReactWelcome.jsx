@@ -1,7 +1,7 @@
 import { FaReact } from 'react-icons/fa'
 const ReactWelcome = () => {
   return (
-    <section className='flex flex-col justify-center items-center mt-9 gap-2 h-[510px] '>
+    <section className='flex flex-col justify-center items-center mt-9 gap-2 h-[510px]'>
       <FaReact
         alt='reactlogo'
         className='text-[#149eca] text-[120px]'

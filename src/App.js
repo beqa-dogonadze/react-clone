@@ -1,6 +1,6 @@
 import NavBar from './components/navbar/NavBar'
-import ReactWelcome from './components/sections/section-items/ReactWelcome'
-import UserInterfaces from './components/sections/section-items/UserInterfaces'
+import ReactWelcome from './components/sections/createUI/ReactWelcome'
+import UserInterfaces from './components/sections/createUI/UserInterfaces'
 
 const App = () => {
   return (
