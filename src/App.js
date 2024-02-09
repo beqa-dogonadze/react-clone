@@ -4,7 +4,7 @@ import UserInterfaces from './components/sections/createUI/UserInterfaces'
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-white dark:bg-[#23262E]'>
       <NavBar />
       <ReactWelcome />
       <UserInterfaces />

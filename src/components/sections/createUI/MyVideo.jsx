@@ -7,7 +7,7 @@ const MyVideo = () => {
     setHeart(!heart)
   }
   return (
-    <div className='flex justify-center items-center bg-gradient-to-br from-[#31304a] via-[#18354d] to-[#1c403f] w-[650px] h-[300px] rounded-r-2xl p-5'>
+    <div className='flex justify-center items-center bg-gradient-to-br from-[#F2E3F7] via-[#DDEFFF] to-[#DFF5EC] dark:from-[#31304a] dark:via-[#18354d] dark:to-[#1c403f] w-[650px] h-[300px] rounded-r-2xl p-5'>
       <div className='bg-white rounded-4xl w-[600px] h-[100px] rounded-2xl flex justify-between items-center p-3'>
         <div className='flex items-center gap-2 '>
           <div className='flex items-center justify-center bg-gradient-to-br from-[#185B9A] to-[#087DA2] w-[150px] h-[80px] rounded-2xl'>
